@@ -29,8 +29,9 @@ input[type=checkbox] {
          top: 2px;
          left: 7px;
 }
-.edt-btn{
-    background-color: grey;
-    padding: 10px;
-    border-radius: 10px;
+p {
+    background-color: yellow;
 }
+  /*  padding: 10px;
+    border-radius: 10px;
+*/
