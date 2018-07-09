@@ -1,20 +1,37 @@
 <html>
     <head>
         <title>Todo App</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <u1 style="list-style: none;">
-            <a href="show.html" id="e">
-                <input type="checkbox">Buy a giraffe</li></a><img src="data:image/png;base64,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" width="50" height="00">
+            <li id="e">  
+                <input type="checkbox"><a href="show.html" style="text-decoration:none">
+                    Buy a giraffe
+                                </a>
+                            <span style="text-align:center;">(20 days)</span>
+                        </li>
             <li id="e">
-                <input type="checkbox">See a dead plant</li>
+                <input type="checkbox"><a href="show.html" style="text-decoration:none">
+                    See a dead plant
+                                </a>
+                             <span>(1 days)</span>
+                         </li>
             <li id="e">
-                <input type="checkbox">Call someone</li>
+                <input type="checkbox"><a href="show.html" style="text-decoration:none">
+                    Call someone 
+                                </a>
+                            <span>(0.1 days)</span>
+                        </li>
             <li id="e">
-                <input type="checkbox">Read 200 chapters of textbooks</li>
+                <input type="checkbox"><a href="show.html" style="text-decoration:none">
+                    Read 200 chapters of textbooks 
+                                </a>
+                            <span>(0.00001 days)</span>
+                        </li>
         </u1>
         <input type="text" placeholder="add new todo">
-        <input type="number" placeholder="add pomodoro">
+        <input type="number" placeholder="add days">
         <input type="submit" value="Add ToDo... Or Else...">
         
     </body>
