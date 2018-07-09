@@ -3,20 +3,26 @@
         <title>Todo App</title>
     </head>
     <body>
-        <u1>
-            <li id="e"><input type="checkbox">I need to buy a giraffe</li>
-            <li id="e1"><input type="checkbox">See a dead plant</li>
-            <li id="e2"><input type="checkbox">Call someone</li>
-            <li id="e3"><input type="checkbox">Read 200 chapters of a textbook</li>
+        <u1 style="list-style: none;">
+            <li id="e">
+                <input type="checkbox">Buy a giraffe</li>
+            <li id="e">
+                <input type="checkbox">See a dead plant</li>
+            <li id="e">
+                <input type="checkbox">Call someone</li>
+            <li id="e">
+                <input type="checkbox">Read 200 chapters of textbooks</li>
         </u1>
+        <input type="text" placeholder="add new todo">
+        <input type="number" placeholder="add pomodoro">
+        <input type="submit" value="Add ToDo... Or Else...">
+        
     </body>
 
 <script>
 
     document.getElementById("e").contentEditable = true;
-    document.getElementById("e1").contentEditable = true;
-    document.getElementById("e2").contentEditable = true;
-    document.getElementById("e").contentEditable = true;
+
 
 </script>
 </html>
