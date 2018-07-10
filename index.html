@@ -2,48 +2,47 @@
     <head>
         <title>Todo App</title>
         <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"> </script>
+
     </head>
     <body>
+        
         <h1 id="head">Do these ToDo's</h1>
-        <u1 style="list-style: none">
+        <ul style="list-style: none">
             <li id="e">  
                 <input type="checkbox" class="check" id="1"><a href="show.html" style="text-decoration:none">
                     Buy a giraffe
                                 </a>
-                            <span class="day-est">(20 days)</span>
+                            <span class="day-est">20 day(s)</span>
                         </li>
             <li id="e">
                 <input type="checkbox" class="check"><a href="show.html" style="text-decoration:none">
                     See a dead plant
                                 </a>
-                             <span class="day-est">(1 days)</span>
+                             <span class="day-est">1 day(s)</span>
                          </li>
             <li id="e">
                 <input type="checkbox" class="check"><a href="show.html" style="text-decoration:none">
                     Call someone 
                                 </a>
-                            <span class="day-est">(0.1 days)</span>
+                            <span class="day-est">0.1 day(s)</span>
                         </li>
             <li id="e">
                 <input type="checkbox" class="check"><a href="show.html" style="text-decoration:none">
                     Read 200 chapters of textbooks 
                                 </a>
-                            <span class="day-est">(0.00001 days)</span>
+                            <span class="day-est">0.00001 day(s)</span>
                         </li>
-        </u1>
+        </ul>
         <p>
-            <input type="checkbox" class="check" id="1">
-                <input type="text" placeholder="add new todo" id="new-todo">
-            <input type="number" placeholder="add days">
-            <a href="#" class="add-todo-btn">Add</a>
+            
+                <input type="text" placeholder="add new todo" id="new-todo-name">
+            <input type="number" placeholder="add days" id="new-todo-days">
+            <a href="#" id="add-todo-btn">Add</a>
         </p>
         
     </body>
 
-<script>
 
-    document.getElementById("e5").contentEditable = true;
-
-
-</script>
 </html>
